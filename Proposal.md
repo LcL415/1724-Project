@@ -49,7 +49,7 @@ We divided the project into tasks for each team member to make steady progress. 
 
 ---
 
-#### Final Week (Dec 10 – Dec 16): Testing, Polishing, and Demo
+#### Final Week (Dec 10 – Dec 16): Testing, Demo
 
 - **All Team Members**: Collaborate on thorough testing to fix any last bugs and make sure all features work as expected. Test on different platforms to confirm cross-platform compatibility.
 
