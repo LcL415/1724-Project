@@ -15,9 +15,9 @@ Develop an efficient command-line tool for finding files, similar to the `find` 
 
 
 ## Tentative plan
-### Tentative Plan
 
 We divided the project into tasks for each team member to make steady progress. Shawn, Jason, and Louis will each focus on specific parts of the tool. Our goal is to stay on track each week and finish everything by the due date.
+
 ---
 #### Week 1-2 (Nov 5 – Nov 18): Setting Up and Core Features
 
