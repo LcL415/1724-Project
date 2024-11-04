@@ -6,7 +6,6 @@ By Changlin Liu, Junchen Zhu and Yidi Liu
 Yidi Liu 1010763336
 Junchen Zhu 1004900271
 
-Yidi Liu 1010763336
 
 ## Summary
 
