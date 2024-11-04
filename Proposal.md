@@ -51,44 +51,47 @@ Ultimately, this project was driven by our collective passion for Rust and for s
 
 ## Tentative plan
 
-We divided the project into tasks for each team member to make steady progress. Shawn, Jason, and Louis will each focus on specific parts of the tool. Our goal is to stay on track each week and finish everything by the due date.
-
----
-#### Week 1-2 (Nov 5 – Nov 18): Setting Up and Core Features
-
-- **Shawn**: Set up the project in Rust and create the GitHub repository. Begin working on **Pattern Matching** in **Advanced Search Options**. This will allow users to search for files by name, using regular expressions and wildcards.
-  
-- **Jason**: Start on **Enhanced Filtering Capabilities** with a focus on **Metadata Filters** (like file size, modification date, etc.). This feature will help users do more specific searches from the start.
-
-- **Louis**: Work on **Recursive Directory Search** to enable searching through subfolders. Louis will also start adding multi-threading for faster searches on large file systems.
+We divided the project into tasks for each team member to make steady progress. Shawn, Jason, and Louis will each focus on specific parts of the tool. Our goal is to stay on track each week and complete the project by the due date.
 
 ---
 
-#### Week 3-4 (Nov 19 – Dec 2): Advanced Features and Indexing
+#### Week 1-2 (Nov 5 – Nov 18): Setting Up and Basic Features
 
-- **Shawn**: Develop **Multi-Threaded Search** to make searches faster. This will use multiple threads to handle large directories more efficiently.
+- **Shawn**: Set up the project in Rust and create the GitHub repository. Start working on **File Name Matching** and **Regular Expressions** in the **Basic Function Implementation** section. This will allow users to search for files by name or partial name, using regular expressions for more flexible matching.
 
-- **Jason**: Continue with **Enhanced Filtering Capabilities** by adding **File Type and Extension Filters** and start **File Content Search**. These features will allow users to narrow their search based on file type and file content.
+- **Jason**: Begin implementing **Time Filtering** and **Size Filtering** in **Basic Function Implementation**. These features will allow users to filter search results based on file creation, modification, or access time, as well as file size.
 
-- **Louis**: Begin building the **Database Indexing Mode**. Set up a local database to index files for faster repeat searches. Also, add options for users to update the index automatically or manually.
-
----
-
-#### Week 5-6 (Dec 3 – Dec 16): Final Features, Testing, and Documentation
-
-- **Shawn**: Implement **Real-Time Directory Monitoring**. This will track changes in specified folders, such as file additions, deletions, and modifications. Shawn will also handle **Automatic Re-indexing** to keep the index up-to-date when files change.
-
-- **Jason**: Finalize **Customizable Output and Integration Options**. This includes adding JSON/CSV export options and allowing search results to be piped to other command-line tools. Jason will also work on sorting and grouping features for better-organized search results.
-
-- **Louis**: Finish any remaining work on **Database Indexing Mode** and assist with testing. Louis will also make sure the tool works well on all platforms (Windows, macOS, and Linux) and that all features work together smoothly.
+- **Louis**: Work on **Recursive Search** functionality to enable searching through all files and folders within a specified directory. Also, start laying the groundwork for **Parallel Processing Support** to improve search speed on large directories.
 
 ---
 
-#### Final Week (Dec 10 – Dec 16): Testing, Demo
+#### Week 3-4 (Nov 19 – Dec 2): User Experience Enhancements
 
-- **All Team Members**: Collaborate on thorough testing to fix any last bugs and make sure all features work as expected. Test on different platforms to confirm cross-platform compatibility.
+- **Shawn**: Design and implement the **Concise Command Format** and **Intuitive Parameter Naming** in the **User Experience Optimization** section. This will make the tool’s command-line interface more readable and easier to use.
+
+- **Jason**: Add **Color Highlighting** to the output to help users quickly identify files and folders. Work on **Smart Default Value Filtering**, such as ignoring hidden files by default, to make searches more efficient.
+
+- **Louis**: Start **Output Format Optimization** to ensure search results are displayed in a clear and organized way. Continue working on **Parallel Processing Support** to improve search performance in large directories.
+
+---
+
+#### Week 5-6 (Dec 3 – Dec 16): Advanced Features and Performance Optimization
+
+- **Shawn**: Implement **Large-Scale Directory Performance Optimization** to reduce search time in large and deeply nested directories. Also, begin work on the **Cache Mechanism** to store recent search results, allowing for faster repeat searches.
+
+- **Jason**: Begin developing **Type Filtering** to allow users to filter by file type (such as files, directories, or links). Also, start working on **Content Search Function** to support text searches within files, similar to `ripgrep`.
+
+- **Louis**: Implement **.gitignore Support** so that the tool automatically reads `.gitignore` files and skips unnecessary files and folders. Finalize the **Parallel Processing Support** to ensure it works well across large file systems.
+
+---
+
+#### Final Week (Dec 10 – Dec 16): Final Testing, Documentation, and Demo
+
+- **All Team Members**: Collaborate on comprehensive testing to catch any last bugs and confirm that all features work as expected. Perform cross-platform testing on Windows, macOS, and Linux to ensure compatibility.
 
 - **Documentation and Demo Video**:
-   - **Shawn**: Create the `README.md` file with setup instructions, usage examples, and a description of each feature.
-   - **Jason**: Help with writing the user guide and contributing to the final `README.md`.
-   - **Louis**: Record and edit a demo video, showing the tool’s main features and how to use it.
+   - **Shawn**: Write the `README.md` with setup instructions, usage examples, and detailed descriptions of each feature.
+   - **Jason**: Contribute to the user guide and help finalize the `README.md`.
+   - **Louis**: Record and edit the demo video, showcasing the tool’s main features, how to use it, and how each part works.
+
+---
