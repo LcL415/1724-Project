@@ -1,6 +1,6 @@
 # 1724 Course Project,  Find -- Documents Searching Tool
 
-By Changlin Liu, Junchen Zhu and Yidi Liu
+By Changlin Liu(shawn), Junchen Zhu(Jason) and Yidi Liu(Louis)
 
 ## Group Member
 Yidi Liu 1010763336
