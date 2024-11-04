@@ -1,4 +1,4 @@
-# 1724 Course Project, Real-Time Chat Application
+# 1724 Course Project,  Find -- Documents Searching Tool
 
 By Shawn, Jason and Louis
 
@@ -9,6 +9,12 @@ By Shawn, Jason and Louis
 Develop an efficient command-line tool for finding files, similar to the `find` command in the Unix system. In addition to core functions such as recursive search, regular expressions, file name matching, basic filtering, etc., optimize the command-line tool's UI appearance, highlight prompts, parameter naming, output format, etc. to conform to the development and usage habits of modern programmers. According to the subsequent time plan, selectively complete extended functions such as parallel processing, multi-threaded search, and .gitignore support.
 
 ## Motivation
+
+Our motivation for this project stemmed from a combination of our desire to create a challenging and satisfying project that would be both fun to build and useful to the Rust ecosystem. We identified a gap in the current landscape for a powerful yet easy-to-use command-line tool for text searching that could seamlessly integrate modern features such as color-coded output, recursive directory scanning, case-insensitive and regex-based searches, and more advanced file handling capabilities. Although there are existing tools in the ecosystem, like `grep`, we found that there were certain user experience improvements and feature combinations that are either hard to find or scattered across multiple tools.
+
+This motivated us to develop a command-line utility that aims to combine the speed and efficiency of Rust with an intuitive user interface and an improved feature set that allows for more flexibility and functionality. Our goal was not just to replicate existing tools, but to improve upon them in ways that would make them more accessible and user-friendly, without compromising on the power and performance that users expect. In particular, we wanted to bring enhanced color support, better regex capabilities, and more granular control over search results to make working with large codebases and file collections more efficient and pleasant.
+
+Ultimately, this project was driven by our collective passion for Rust and for solving practical problems in a way that adds tangible value to developers. By identifying the gap and envisioning a unified solution that didn't previously exist in the Rust ecosystem, we felt a strong motivation to dedicate our time and energy to making this idea a reality.
 
 
 ## Objective and key features
