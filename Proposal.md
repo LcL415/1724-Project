@@ -59,41 +59,41 @@ We divided the project into tasks for each team member to make steady progress. 
 
 #### Week 1-2 (Nov 5 – Nov 18): Setting Up and Basic Features
 
-- **Shawn**: Set up the project in Rust and create the GitHub repository. Start working on **File Name Matching** and **Regular Expressions** in the **Basic Function Implementation** section. This will allow users to search for files by name or partial name, using regular expressions for more flexible matching.
+- **Shawn**: Set up the project in Rust and create the GitHub repository. Start on **File Name Matching** and **Regular Expressions**. This will let users search by file name or parts of a name, with regular expressions for more flexible searches.
 
-- **Jason**: Begin implementing **Time Filtering** and **Size Filtering** in **Basic Function Implementation**. These features will allow users to filter search results based on file creation, modification, or access time, as well as file size.
+- **Jason**: Begin work on **Time Filtering** and **Size Filtering**. These features will let users filter files by when they were created, modified, or accessed, and by file size.
 
-- **Louis**: Work on **Recursive Search** functionality to enable searching through all files and folders within a specified directory. Also, start laying the groundwork for **Parallel Processing Support** to improve search speed on large directories.
-
----
-
-#### Week 3-4 (Nov 19 – Dec 2): User Experience Enhancements
-
-- **Shawn**: Design and implement the **Concise Command Format** and **Intuitive Parameter Naming** in the **User Experience Optimization** section. This will make the tool’s command-line interface more readable and easier to use.
-
-- **Jason**: Add **Color Highlighting** to the output to help users quickly identify files and folders. Work on **Smart Default Value Filtering**, such as ignoring hidden files by default, to make searches more efficient.
-
-- **Louis**: Start **Output Format Optimization** to ensure search results are displayed in a clear and organized way. Continue working on **Parallel Processing Support** to improve search performance in large directories.
+- **Louis**: Set up **Recursive Search** so the tool can go through all files and folders in a given directory. Begin setting up **Parallel Processing** to make searches faster on large file systems.
 
 ---
 
-#### Week 5-6 (Dec 3 – Dec 16): Advanced Features and Performance Optimization
+#### Week 3-4 (Nov 19 – Dec 2): Improving User Experience
 
-- **Shawn**: Implement **Large-Scale Directory Performance Optimization** to reduce search time in large and deeply nested directories. Also, begin work on the **Cache Mechanism** to store recent search results, allowing for faster repeat searches.
+- **Shawn**: Create a **Concise Command Format** and **Intuitive Parameter Naming**. This will make the tool’s command-line interface simple and easy to use.
 
-- **Jason**: Begin developing **Type Filtering** to allow users to filter by file type (such as files, directories, or links). Also, start working on **Content Search Function** to support text searches within files, similar to `ripgrep`.
+- **Jason**: Add **Color Highlighting** so users can quickly spot files and folders in the results. Set up **Smart Default Filtering** to ignore hidden files and system files unless specified.
 
-- **Louis**: Implement **.gitignore Support** so that the tool automatically reads `.gitignore` files and skips unnecessary files and folders. Finalize the **Parallel Processing Support** to ensure it works well across large file systems.
+- **Louis**: Work on **Output Format Optimization** to make search results look clear and organized. Continue setting up **Parallel Processing** to improve search speed on large folders.
 
 ---
 
-#### Final Week (Dec 10 – Dec 16): Final Testing, Documentation, and Demo
+#### Week 5-6 (Dec 3 – Dec 16): Advanced Features and Performance
 
-- **All Team Members**: Collaborate on comprehensive testing to catch any last bugs and confirm that all features work as expected. Perform cross-platform testing on Windows, macOS, and Linux to ensure compatibility.
+- **Shawn**: Work on **Large-Scale Directory Optimization** to speed up searches in big folders. Start the **Cache Mechanism** to store recent search results for faster repeated searches.
+
+- **Jason**: Set up **Type Filtering** so users can filter by type, like files, directories, or links. Start **Content Search** so users can search within files, similar to `ripgrep`.
+
+- **Louis**: Add **.gitignore Support** so the tool skips files listed in `.gitignore`. Finalize **Parallel Processing** to handle large searches smoothly.
+
+---
+
+#### Final Week (Dec 10 – Dec 16): Testing, Documentation, and Demo
+
+- **All Team Members**: Test the tool to fix any issues and ensure all features work as expected. Check that the tool works well on Windows, macOS, and Linux.
 
 - **Documentation and Demo Video**:
-   - **Shawn**: Write the `README.md` with setup instructions, usage examples, and detailed descriptions of each feature.
-   - **Jason**: Contribute to the user guide and help finalize the `README.md`.
-   - **Louis**: Record and edit the demo video, showcasing the tool’s main features, how to use it, and how each part works.
+   - **Shawn**: Write the `README.md` with setup steps, usage examples, and details for each feature.
+   - **Jason**: Help with the user guide and add to the `README.md`.
+   - **Louis**: Record and edit the demo video to show how the tool works and highlight its main features.
 
 ---
