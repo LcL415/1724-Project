@@ -1,7 +1,7 @@
 # 1724-Project
 ## FIND COMMAND LINE TOOL
 
-DEMO VIDEO is in git repo.
+DEMO VIDEO Link: https://youtu.be/oD9rrZYfb0I
 
 # **Group Member**
 
