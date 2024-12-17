@@ -1,6 +1,8 @@
 # 1724-Project
 ## FIND COMMAND LINE TOOL
 
+DEMO VIDEO is in git repo.
+
 # **Group Member**
 
 Yidi Liu  1010763336  id.liu@mail.utoronto.ca
