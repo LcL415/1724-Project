@@ -290,8 +290,8 @@ Operating System: macOS or Windows 10/11.
 Download the project source code from the repository using Git:
 
 ```bash
-git clone < >
-cd < >
+git clone git@github.com:LcL415/1724-Project.git
+cd 1724-Project
 ```
 
 ### 3. **Build the Project**
