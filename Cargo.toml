@@ -1,0 +1,18 @@
+[package]
+name = "fd"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+walkdir = "2.3"
+regex = "1.7"
+rayon = "1.7"
+clap = { version = "4.3", features = ["derive"] }
+lscolors = "0.12"
+ansi_term = "0.12"
+ignore = "0.4"
+strsim = "0.10"
+serial_test = "2.0"
+chrono = "0.4"
+dashmap = "5.4"
+crossbeam-channel = "0.5"
