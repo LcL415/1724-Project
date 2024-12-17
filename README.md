@@ -90,8 +90,8 @@ The primary objective of this project is to develop a robust and user-friendly c
 Download the source code or clone the repository:
 
 ```bash
-git clone < >
-cd < >
+git clone git@github.com:LcL415/1724-Project.git
+cd 1724-Project
 ```
 
 ---
@@ -298,9 +298,6 @@ cd < >
 
 1. Navigate to the project root directory (where the `Cargo.toml` file is located):
     
-    ```bash
-    cd fd
-    ```
     
 2. Build the project in **release mode** for optimized performance:
     
